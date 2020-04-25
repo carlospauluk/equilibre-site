@@ -30,10 +30,10 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $("#logo-img").attr("src", "img/logo_horiz_branco.png");
+      // $("#logo-img").attr("src", "img/logo_horiz_branco.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $("#logo-img").attr("src", "img/logo_horiz_azul.png");
+      // $("#logo-img").attr("src", "img/logo_horiz_azul.png");
     }
   };
   // Collapse now if page is not at top
