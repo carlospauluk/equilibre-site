@@ -521,12 +521,14 @@
 <!-- Contact -->
 <section class="page-section" id="contact">
     <div class="container">
+
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">Entre em contato</h2>
                 <h3 class="section-subheading">Como podemos te ajudar?</h3>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
                 <?php if ($r['status'] === 'OK') { ?>
