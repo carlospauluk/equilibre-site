@@ -549,17 +549,17 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input class="form-control" id="nome" type="text" placeholder="Seu nome *"
+                                <input class="form-control" id="nome" name="nome" type="text" placeholder="Seu nome *"
                                        required="required" data-validation-required-message="Seu nome">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Seu e-mail *"
+                                <input class="form-control" id="email" name="email" type="email" placeholder="Seu e-mail *"
                                        required="required" data-validation-required-message="Seu e-mail">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="telefone" type="tel" placeholder="Seu telefone *"
+                                <input class="form-control" id="telefone" name="telefone" type="tel" placeholder="Seu telefone *"
                                        required="required" data-validation-required-message="Seu telefone">
                                 <p class="help-block text-danger"></p>
                             </div>
