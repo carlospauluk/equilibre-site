@@ -48,16 +48,13 @@
                     <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link js-scroll-trigger" href="#clinica">A Clínica</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">Equipe</a>
+                    <a class="nav-link js-scroll-trigger" href="#equipe">Equipe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">A Clínica</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+                    <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
                 </li>
             </ul>
         </div>
@@ -76,7 +73,6 @@
     </div>
 </header>
 
-<!-- Services -->
 <section class="page-section" id="services">
     <div class="container">
         <div class="row">
@@ -178,8 +174,7 @@
     </div>
 </section>
 
-<!-- Portfolio Grid -->
-<section class="bg-light page-section" id="portfolio">
+<section class="bg-light page-section" id="clinica">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -276,11 +271,7 @@
     </div>
 </section>
 
-<!-- About -->
-
-
-<!-- Team -->
-<section class="bg-light page-section" id="team">
+<section class="bg-light page-section" id="equipe">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -371,155 +362,7 @@
     </div>
 </section>
 
-<!-- Clients -->
-<section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="page-section" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">A Clínica</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Be Part
-                                <br>Of Our
-                                <br>Story!</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-md-8 col-sm-12">
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.573655832241!2d-50.16145838471939!3d-25.082435583949717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81befc28fe427%3A0x29f2b6df542b5d74!2sEquilibre%20-%20Psicologia%20e%20Sa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1587838909489!5m2!1spt-BR!2sbr"
-                                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
-
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <h3>Nosso endereço</h3>
-
-
-                        R. Des. Joaquim Ferreira Guimarães, 22 - Jardim Carvalho
-                        <br>
-                        Ponta Grossa - PR <br>
-                        CEP 84015-560
-                        <br><br>
-
-                        <h3>Nosso Telefone</h3>
-                        <h6>(42) 99827-7377</h6>
-                        <h6>(42) 3323 7668</h6>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Contact -->
-<section class="page-section" id="contact">
+<section class="page-section" id="contato">
     <div class="container">
 
         <div class="row">
