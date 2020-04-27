@@ -580,7 +580,7 @@
                             <div class="g-recaptcha" data-sitekey="<?= $props['GOOGLE_RECAPTCHA_SITEKEY'] ?>"></div>
                         </div>
 
-                        <div class="col-lg-6 col-sm-12">
+                        <div class="col-lg-6 col-sm-12 text-right">
 
                             <button id="sendMessageButton" name="btnEnviar"
                                     class="btn btn-primary btn-xl text-uppercase" type="submit">
