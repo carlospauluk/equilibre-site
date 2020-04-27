@@ -24,7 +24,6 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
-
     <?php include 'contato.php' ?>
 
 </head>
@@ -865,6 +864,8 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </body>
 
