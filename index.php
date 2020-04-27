@@ -543,54 +543,54 @@
                     <?php } ?>
                 </div>
             </div>
-            <div class="col-lg-12">
 
-                <form id="contactForm" name="sentMessage" method="post" novalidate="novalidate" action="#contact">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input class="form-control" id="nome" name="nome" type="text" placeholder="Seu nome *"
-                                       required="required" data-validation-required-message="Seu nome">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" name="email" type="email" placeholder="Seu e-mail *"
-                                       required="required" data-validation-required-message="Seu e-mail">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="telefone" name="telefone" type="tel" placeholder="Seu telefone *"
-                                       required="required" data-validation-required-message="Seu telefone">
-                                <p class="help-block text-danger"></p>
-                            </div>
+            <form id="contactForm" name="sentMessage" method="post" novalidate="novalidate" action="#contact">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" id="nome" name="nome" type="text" placeholder="Seu nome *"
+                                   required="required" data-validation-required-message="Seu nome" value="<?= $_POST['nome'] ;?>">
+                            <p class="help-block text-danger"></p>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
+                        <div class="form-group">
+                            <input class="form-control" id="email" name="email" type="email" placeholder="Seu e-mail *"
+                                   required="required" data-validation-required-message="Seu e-mail" value="<?= $_POST['email'] ;?>">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="telefone" name="telefone" type="tel" placeholder="Seu telefone *"
+                                   required="required" data-validation-required-message="Seu telefone" value="<?= $_POST['telefone'] ;?>">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
                                 <textarea class="form-control" id="message" placeholder="Sua mensagem *"
                                           required="required" name="msg"
-                                          data-validation-required-message="Sua mensagem"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
+                                          data-validation-required-message="Sua mensagem">
+                                    <?= $_POST['msg'] ;?>
+                                </textarea>
+                            <p class="help-block text-danger"></p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="col-lg-6 col-sm-12">
-                                <div class="g-recaptcha" data-sitekey="<?= $props['GOOGLE_RECAPTCHA_SITEKEY'] ?>"></div>
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12">
-
-                                <button id="sendMessageButton" name="btnEnviar"
-                                        class="btn btn-primary btn-xl text-uppercase" type="submit">
-                                    Enviar
-                                </button>
-                            </div>
-
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="g-recaptcha" data-sitekey="<?= $props['GOOGLE_RECAPTCHA_SITEKEY'] ?>"></div>
                         </div>
+
+                        <div class="col-lg-6 col-sm-12">
+
+                            <button id="sendMessageButton" name="btnEnviar"
+                                    class="btn btn-primary btn-xl text-uppercase" type="submit">
+                                Enviar
+                            </button>
+                        </div>
+
                     </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 </section>
