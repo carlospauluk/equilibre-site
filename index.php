@@ -572,7 +572,8 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="col-lg-6 col-sm-12">
                                 <div class="g-recaptcha" data-sitekey="<?= $props['GOOGLE_RECAPTCHA_SITEKEY'] ?>"></div>
@@ -585,7 +586,6 @@
                                     Enviar
                                 </button>
                             </div>
-
 
                         </div>
                     </div>
