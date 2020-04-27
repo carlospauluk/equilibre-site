@@ -11,7 +11,8 @@
     <title>Equilibre Psicologia</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -25,6 +26,29 @@
     <link href="css/agency.min.css" rel="stylesheet">
 
     <?php include 'contato.php' ?>
+
+    <style>
+
+        .whats-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .whats-my-float {
+            margin-top: 16px;
+        }
+
+    </style>
 
 </head>
 
@@ -91,7 +115,8 @@
             <i class="fas fa-cloud-sun-rain fa-stack-1x fa-inverse"></i>
           </span>
                 <h4 class="service-heading">Psicoterapia</h4>
-                <p class="text-muted">Muitos problemas de saúde tem relação com a mente e o comportamento. A psicoterapia busca trata-los sem o uso de medicamentos.</p>
+                <p class="text-muted">Muitos problemas de saúde tem relação com a mente e o comportamento. A
+                    psicoterapia busca trata-los sem o uso de medicamentos.</p>
             </div>
 
             <div class="col-md-3">
@@ -169,6 +194,38 @@
                     interferem na aprendizagem em todas as idades (crianças, adultos e adolescentes).</p>
             </div>
 
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+
+                <h1>Locação de Salas</h1>
+
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
         </div>
 
     </div>
@@ -373,6 +430,55 @@
         </div>
 
         <div class="row">
+            <div class="col-md-8 col-sm-12">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.573655832241!2d-50.16145838471939!3d-25.082435583949717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81befc28fe427%3A0x29f2b6df542b5d74!2sEquilibre%20-%20Psicologia%20e%20Sa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1587838909489!5m2!1spt-BR!2sbr"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+
+            </div>
+            <div class="col-md-4 col-sm-12">
+
+
+                <div class="row col-12">
+                    <h3>Nosso endereço</h3>
+                    R. Des. Joaquim Ferreira Guimarães, 22<br>
+                    Jardim Carvalho<br>
+                    Ponta Grossa - PR <br>
+                    CEP 84015-560
+                </div>
+
+                <div class="row col-12 mt-4 d-flex flex-column">
+                    <h3>Nossos Telefones</h3>
+
+                    <p>
+                        <a href="https://api.whatsapp.com/send?phone=42998277377&text="
+                           class="float" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            (42) 99827-7377</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i> (42) 3323 7668
+                    </p>
+                </div>
+
+                <div class="row col-12 mt-4">
+                    <h3 class="mt-6">Nosso e-mail</h3>
+
+                    <a href="mailto:contato@equilibrepsicologia.com.br"
+                       class="float" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        contato@equilibrepsicologia.com.br</a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+            <div class="col-12 text-center">
+                <h1>Envie-nos uma mensagem</h1>
+            </div>
             <div class="col-12">
                 <?php if ($r['status'] === 'OK') { ?>
                     <div class="alert alert-success contact__msg" role="alert">
@@ -393,27 +499,29 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <input class="form-control" id="nome" name="nome" type="text" placeholder="Seu nome *"
-                               required="required" data-validation-required-message="Seu nome" value="<?= $_POST['nome']; ?>">
+                               required="required" data-validation-required-message="Seu nome"
+                               value="<?= $_POST['nome']; ?>">
                         <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
                         <input class="form-control" id="email" name="email" type="email" placeholder="Seu e-mail *"
-                               required="required" data-validation-required-message="Seu e-mail" value="<?= $_POST['email']; ?>">
+                               required="required" data-validation-required-message="Seu e-mail"
+                               value="<?= $_POST['email']; ?>">
                         <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" id="telefone" name="telefone" type="tel" placeholder="Seu telefone *"
-                               required="required" data-validation-required-message="Seu telefone" value="<?= $_POST['telefone']; ?>">
+                        <input class="form-control" id="telefone" name="telefone" type="tel"
+                               placeholder="Seu telefone *"
+                               required="required" data-validation-required-message="Seu telefone"
+                               value="<?= $_POST['telefone']; ?>">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                                 <textarea class="form-control" id="message" placeholder="Sua mensagem *"
-                                          required="required" name="msg"
-                                          data-validation-required-message="Sua mensagem">
-                                    <?= $_POST['msg']; ?>
-                                </textarea>
+                                          required="required" name="msg" rows="8"
+                                          data-validation-required-message="Sua mensagem"><?= $_POST['msg']; ?></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -454,6 +562,12 @@
                     <li class="list-inline-item">
                         <a href="https://www.instagram.com/equilibre.psicologia_e_saude/" target="_blank">
                             <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://api.whatsapp.com/send?phone=42998277377&text="
+                           target="_blank">
+                            <i class="fab fa-whatsapp"></i>
                         </a>
                     </li>
                 </ul>
@@ -691,6 +805,11 @@
         </div>
     </div>
 </div>
+
+<a href="https://api.whatsapp.com/send?phone=42998277377&text="
+   class="whats-float" target="_blank">
+    <i class="fab fa-whatsapp whats-my-float"></i>
+</a>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
