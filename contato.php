@@ -55,7 +55,7 @@ function doIt($props)
         $mail->Port = 587;
         $mail->SMTPSecure = false;
         $mail->SMTPAutoTLS = false;
-        $mail->Username = 'mailer@ektplus.com.br';
+        $mail->Username = 'contato@equilibrepsicologia.com.br';
         $mail->Password = $props['PWDMAILER'];
         $mail->setFrom('contato@equilibrepsicologia.com.br');
         $mail->addAddress('carlospauluk@gmail.com');
@@ -69,12 +69,12 @@ function doIt($props)
         unset($_POST);
         return [
             'status' => 'OK',
-            'msg' => 'Ocorreu um erro ao enviar sua mensagem. Por favor, envie um e-mail diretamente para ekt@ektplus.com.br'
+            'msg' => 'Ocorreu um erro ao enviar sua mensagem. Por favor, envie um e-mail diretamente para contato@equilibrepsicologia.com.br'
         ];
     } catch (Exception $e) {
         return [
             'status' => 'ERRO',
-            'msg' => 'Ocorreu um erro ao enviar sua mensagem. Por favor, envie um e-mail diretamente para ekt@ektplus.com.br'
+            'msg' => 'Ocorreu um erro ao enviar sua mensagem. Por favor, envie um e-mail diretamente para contato@equilibrepsicologia.com.br'
         ];
     }
 }
