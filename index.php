@@ -95,8 +95,7 @@
             <i class="fas fa-cloud-sun-rain fa-stack-1x fa-inverse"></i>
           </span>
                 <h4 class="service-heading">Psicoterapia</h4>
-                <p class="text-muted">Muitos problemas de saúde tem relação com a mente e o comportamento. a
-                    psicoterapia busca trata-los sem o uso de medicamentos.</p>
+                <p class="text-muted">Muitos problemas de saúde tem relação com a mente e o comportamento. A psicoterapia busca trata-los sem o uso de medicamentos.</p>
             </div>
 
             <div class="col-md-3">
@@ -575,16 +574,17 @@
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-
                             <div class="col-lg-6 col-sm-12">
                                 <div class="g-recaptcha" data-sitekey="<?= $props['GOOGLE_RECAPTCHA_SITEKEY'] ?>"></div>
                             </div>
 
-                            <button id="sendMessageButton" name="btnEnviar"
-                                    class="btn btn-primary btn-xl text-uppercase" type="submit">
-                                Enviar
-                            </button>
+                            <div class="col-lg-6 col-sm-12">
+
+                                <button id="sendMessageButton" name="btnEnviar"
+                                        class="btn btn-primary btn-xl text-uppercase" type="submit">
+                                    Enviar
+                                </button>
+                            </div>
 
 
                         </div>
