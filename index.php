@@ -198,10 +198,10 @@
 
 
         <div class="row mt-5">
-            <div class="col-6 text-center">
+            <div class="d-none d-md-block col-md-6 text-center">
                 <img src="img/placa.jpg" alt="Equilibre" class="img-thumbnail">
             </div>
-            <div class="col-6 text-center">
+            <div class="col-md-6 col-sm-12 text-center">
                 <h1>Locação de Salas</h1>
                 <p>Precisando alugar uma sala? Temos várias opções a disposição.</p>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contato">Entrar em Contato</a>
