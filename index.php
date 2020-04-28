@@ -198,34 +198,15 @@
 
 
         <div class="row mt-5">
-            <div class="col-12 text-center">
-
-                <h1>Locação de Salas</h1>
-
-
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-
+            <div class="col-6 text-center">
+                <img src="img/placa.jpg" alt="Equilibre" class="img-thumbnail">
             </div>
+            <div class="col-6 text-center">
+                <h1>Locação de Salas</h1>
+                <p>Precisando alugar uma sala? Temos várias opções a disposição.</p>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contato">Entrar em Contato</a>
+            </div>
+
         </div>
 
     </div>
@@ -236,94 +217,42 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">A Clínica</h2>
-                <h3 class="section-subheading text-muted">Conheça nosso espaço</h3>
+                <h3 class="section-subheading text-muted">Em localização privilegiada próxima ao centro da cidade, com um amplo espaço totalizando 320 m², nossa clínica contém 5 salas de atendimento, 1  para nutrição, 1 infantil, 1 sala para curso e 1 sala para grupo.</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/salas/01.jpg" class="d-block w-100" alt="01">
                     </div>
-                    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Threads</h4>
-                    <p class="text-muted">Illustration</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="img/salas/02.jpg" class="d-block w-100" alt="02">
                     </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Explore</h4>
-                    <p class="text-muted">Graphic Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="img/salas/03.jpg" class="d-block w-100" alt="03">
                     </div>
-                    <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Finish</h4>
-                    <p class="text-muted">Identity</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="img/salas/04.jpg" class="d-block w-100" alt="04">
                     </div>
-                    <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Lines</h4>
-                    <p class="text-muted">Branding</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="img/salas/05.jpg" class="d-block w-100" alt="05">
                     </div>
-                    <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Southwest</h4>
-                    <p class="text-muted">Website Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="img/salas/06.jpg" class="d-block w-100" alt="06">
                     </div>
-                    <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Window</h4>
-                    <p class="text-muted">Photography</p>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
             </div>
+
         </div>
     </div>
 </section>
@@ -333,87 +262,111 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">Nossa Equipe</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Conheça nossos profissionais</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
+                    <img class="mx-auto rounded-circle" src="img/equipe/luiz.jpeg" alt="">
+                    <h4>Luiz Ricardo Pauluk</h4>
+                    <p class="text-muted">Psicólogo
+                    <hr>
+                    </p>
+                    <p class="text-muted">CRP 08/23364</p>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Psicanalista</li>
+                        <li class="list-group-item">Psicoterapia para jovens e adultos</li>
+                        <li class="list-group-item">Terapia para casais</li>
+                        <li class="list-group-item">Avaliações psicológicas</li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
+                    <img class="mx-auto rounded-circle" src="img/equipe/alberto.jpeg" alt="">
+                    <h4>Alberto Luiz Chemin</h4>
+                    <p class="text-muted">Psicólogo
+                    <hr>
+                    </p>
+                    <p class="text-muted">CRP 08/25971</p>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Psicoterapia para jovens e adultos</li>
+                        <li class="list-group-item">Psicoterapia para casais</li>
+                        <li class="list-group-item">Atendimentos Online</li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-                    <h4>Diana Pertersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
+                    <img class="mx-auto rounded-circle" src="img/equipe/bruna.jpeg" alt="">
+                    <h4>Bruna B. Fillus</h4>
+                    <p class="text-muted">Psicóloga</p>
+                    <hr>
+                    <p class="text-muted">CRP 08/25902</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Psicoterapia para crianças e adolescentes</li>
+                        <li class="list-group-item">Psicoterapia para adultos</li>
+                        <li class="list-group-item">Avaliações psicológicas</li>
+                        <li class="list-group-item">Atendimentos Online</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/equipe/bruno.jpg" alt="">
+                    <h4>Bruno Felipe Marques</h4>
+                    <p class="text-muted">Psicólogo
+                    <hr>
+                    </p>
+                    <p class="text-muted">CRP 08/24014</p>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Psicanalista</li>
+                        <li class="list-group-item">Psicoterapia para jovens e adultos</li>
+                        <li class="list-group-item">Atendimentos Online</li>
+                        <li class="list-group-item">Terapia para casais</li>
+                        <li class="list-group-item">Avaliações psicológicas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/equipe/carla.jpeg" alt="">
+                    <h4>Carla Carbonar</h4>
+                    <p class="text-muted">Psicóloga
+                    <hr>
+                    </p>
+                    <p class="text-muted">CRP 08/30328</p>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Psicoterapia para crianças e adolescentes</li>
+                        <li class="list-group-item">Psicoterapia para adultos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/equipe/cleomara.jpg" alt="">
+                    <h4>Cleomara Salla</h4>
+                    <p class="text-muted">Fonoaudióloga</p>
+                    <hr>
+                    <p class="text-muted">CRFa 310833</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Motricidade Orofacial</li>
+                        <li class="list-group-item">Linguagem Oral e Escrita</li>
+                        <li class="list-group-item">Atendimento a crianças com diagnósticodo Transtorno do Espectro Autista pelos princípios da Análise Aplicada do Comportamento (ABA)</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <p class="large text-muted"></p>
             </div>
         </div>
     </div>
@@ -452,7 +405,7 @@
                     <h3>Nossos Telefones</h3>
 
                     <p>
-                        <a href="https://api.whatsapp.com/send?phone=42998277377&text="
+                        <a href="https://api.whatsapp.com/send?phone=+5542998277377&text="
                            class="float" target="_blank">
                             <i class="fab fa-whatsapp"></i>
                             (42) 99827-7377</a>
@@ -806,7 +759,7 @@
     </div>
 </div>
 
-<a href="https://api.whatsapp.com/send?phone=42998277377&text="
+<a href="https://api.whatsapp.com/send?phone=+5542998277377&text="
    class="whats-float" target="_blank">
     <i class="fab fa-whatsapp whats-my-float"></i>
 </a>
