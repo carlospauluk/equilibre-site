@@ -136,7 +136,7 @@
           </span>
                 <h4 class="service-heading">Psicanálise</h4>
                 <p class="text-muted">A ciência do inconsciente. Busca tratar o sofrimento psíquico buscando solucionar
-                    suas as causas profundas, muitas vezes reprimidas no inconsciente.</p>
+                    suas causas profundas, muitas vezes reprimidas no inconsciente.</p>
             </div>
 
             <div class="col-md-3">
