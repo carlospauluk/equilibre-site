@@ -217,7 +217,8 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">A Clínica</h2>
-                <h3 class="section-subheading text-muted">Em localização privilegiada próxima ao centro da cidade, com um amplo espaço totalizando 320 m², nossa clínica contém 5 salas de atendimento, 1  para nutrição, 1 infantil, 1 sala para curso e 1 sala para grupo.</h3>
+                <h3 class="section-subheading text-muted">Em localização privilegiada próxima ao centro da cidade, com um amplo espaço totalizando 320 m², nossa clínica contém 5 salas de atendimento, 1 para nutrição, 1
+                    infantil, 1 sala para curso e 1 sala para grupo.</h3>
             </div>
         </div>
         <div class="row">
@@ -253,6 +254,29 @@
                 </a>
             </div>
 
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center"><h3>Convênios</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="img/convenios/dce.jpg" alt="DCE">
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="img/convenios/medprev.jpg" alt="MedPrev">
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="img/convenios/princesa.jpg" alt="Princesa">
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="img/convenios/santa-casa.jpg" alt="Santa Casa">
+            </div>
         </div>
     </div>
 </section>
@@ -293,6 +317,7 @@
                     <p class="text-muted">CRP 08/25971</p>
 
                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Terapia Cognitivo-Comportamental</li>
                         <li class="list-group-item">Psicoterapia para jovens e adultos</li>
                         <li class="list-group-item">Psicoterapia para casais</li>
                         <li class="list-group-item">Atendimentos Online</li>
@@ -504,7 +529,7 @@
             <div class="col-md-4">
                 <span class="copyright text-muted">Desenvolvido por</span><br>
                 <a href="https://www.ektplus.com.br">
-                <img src="img/ektplus_logo_100x55.png" alt="EKT Plus"/>
+                    <img src="img/ektplus_logo_100x55.png" alt="EKT Plus"/>
                 </a>
             </div>
             <div class="col-md-4">
