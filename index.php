@@ -472,7 +472,7 @@
             </div>
         </div>
 
-        <form id="contactForm" name="sentMessage" method="post" novalidate="novalidate" action="#contact">
+	<form id="contactForm" name="sentMessage" method="post" novalidate="novalidate" action="#contato">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
