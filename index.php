@@ -375,18 +375,6 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/equipe/cleomara.jpg" alt="">
-                    <h4>Cleomara Salla</h4>
-                    <p class="text-muted">Fonoaudióloga</p>
-                    <hr>
-                    <p class="text-muted">CRFa 310833</p>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Motricidade Orofacial</li>
-                        <li class="list-group-item">Linguagem Oral e Escrita</li>
-                        <li class="list-group-item">Atendimento a crianças com diagnósticodo Transtorno do Espectro Autista pelos princípios da Análise Aplicada do Comportamento (ABA)</li>
-                    </ul>
-                </div>
             </div>
         </div>
         <div class="row">
